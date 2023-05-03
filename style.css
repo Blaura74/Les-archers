@@ -1,9 +1,22 @@
-nav {
+html,
+body {
+    height: 100%;
+}
+
+section {
     background-color: #FACF61;
+}
+
+nav {
+    margin: 2px;
 }
 
 #logo {
     text-align: center;
+}
+
+form {
+    margin-left: 2em;
 }
 
 

@@ -4,5 +4,12 @@ nav {
 
 #logo {
     text-align: center;
-    display: block;
+}
+
+
+/* ajustment paw boar search */
+
+#pawBoar {
+    height: 2em;
+    width: 2em;
 }

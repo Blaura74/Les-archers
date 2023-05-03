@@ -21,33 +21,48 @@
             <div id="logo">
                 <img src="C:\Users\laura\les-archers\img\logo.png" alt="logo du club" />
             </div>
-
-            <div class="navbar sticky-top navbar-expand-lg" id="navbarSupportedContent">
+            <!--Link creation-->
+            <div class="d-flex justify-content-between navbar sticky-top navbar-expand-lg" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Accueil</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
+                    <!-- dropdown menu-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarClub" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Le Club
+            </a>
+                        <!-- dropdown item-->
+                        <ul class="dropdown-menu" aria-labelledby="navbarClub">
+                            <li><a class="dropdown-item" href="presentation.html">Presentation</a></li>
+                            <li><a class="dropdown-item" href="trainningtime.html">Horaires entrainements</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="subscribe.html">Inscritpion</a></li>
+                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galery.html">Galerie</a>
+                        </li>
+                        <!--dropdown menu-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Compétition
+                            </a>
+                            <!-- dropdown item-->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="competsub.html">Inscription aux concours</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <!-- search form-->
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                    <input id="pawBoar" type="image" src="C:\Users\laura\les-archers\img\pawprints.png">
                 </form>
             </div>
         </nav>

@@ -67,7 +67,10 @@ h2 {
     text-align: center;
 }
 
-
+#club {
+    display: block;
+    margin: auto;
+}
 
 
 /* contact form*/

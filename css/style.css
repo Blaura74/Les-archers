@@ -51,6 +51,10 @@ article {
     padding: 1em;
 }
 
+h1 {
+    text-align: center;
+}
+
 article {
     min-height: 30%;
     border: 1px solid #f58925;

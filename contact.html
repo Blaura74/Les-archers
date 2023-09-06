@@ -102,6 +102,8 @@
     <main>
         <div class="content">
         <div class="container">
+            <p>Vous pourrez retrouver ici toutes les informations nécessaires liées au club. Pour toutes questions ou demandes particulières, n’hésitez pas à nous contacter par mail à archersdumontblanc@gmail.com ou encore via notre page facebook. </p>
+</p>
     <h1>Formulaire de contact</h1>
     <form action="/action_page.php">
       <label for="fname">Nom & prénom</label>

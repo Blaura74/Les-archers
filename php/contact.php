@@ -63,27 +63,27 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="nav-link" href="php\contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- search form-->
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
-                <input id="pawBoar" type="image" src="C:\Users\laura\les-archers\img\pawprints.png">
+                <input id="pawBoar" type="image" src="\img\pawprints.png">
             </form>
         </nav>
         <!--carousel creation-->
         <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="1000">
-                    <img src="C:\Users\laura\les-archers\img\carousel1.jpg" class="d-block w-100" alt="@archerystudio">
+                    <img src="\img\carousel1.jpg" class="d-block w-100" alt="@archerystudio">
                 </div>
                 <div class="carousel-item" data-interval="1000">
-                    <img src="C:\Users\laura\les-archers\img\carousel2.jpg" class="d-block w-100" alt="@archerystudio">
+                    <img src="\img\carousel2.jpg" class="d-block w-100" alt="@archerystudio">
                 </div>
                 <div class="carousel-item" data-interval="1000">
-                    <img src="C:\Users\laura\les-archers\img\carousel3.jpg" class="d-block w-100" alt="@archerystudio">
+                    <img src="\img\carousel3.jpg" class="d-block w-100" alt="@archerystudio">
                 </div>
             </div>
             <!--prev & next button for carousel-->
@@ -105,7 +105,7 @@
             <p>Vous pourrez retrouver ici toutes les informations nécessaires liées au club. Pour toutes questions ou demandes particulières, n’hésitez pas à nous contacter par mail à archersdumontblanc@gmail.com ou encore via notre page facebook. </p>
 </p>
     <h1>Formulaire de contact</h1>
-    <form action="/action_page.php">
+    <form method="post">
       <label for="fname">Nom & prénom</label>
       <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
   
@@ -122,8 +122,9 @@
     </div>
     </form>
     <?php
+    // si le formulaire a été soumis
     if (isset($_POST['message'])) {
-        $retour = mail('archersdumontblanc@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
+        $retour = mail('lauraberthoud74@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: contact@archerpassy.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
         if($retour)
             echo '<p>Votre message a bien été envoyé.</p>';
     }

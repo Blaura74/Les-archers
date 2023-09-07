@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Contact</title>
-    <link href="www\css\style.css" rel="stylesheet" type="text/css" />
+    <link href="css\style.css" rel="stylesheet" type="text/css" />
     <!--Popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
@@ -63,7 +63,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="php\contact.php">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -128,7 +128,11 @@
     <?php
     // si le formulaire a été soumis
     if (isset($_POST['message'])) {
-        $retour = mail('lauraberthoud74@gmail.com', $_POST['sujet'], $_POST['message'], 'From:' .  $_POST['email']);
+        $message = 'Ce message vous a été envoyé via la page contact du site lesarchersdumontblanc.ovh
+        Nom : ' .  $_POST['name'] . '
+        Email : ' . $_POST['email'] . '
+        Massage : ' . $_POST['message'];
+        $retour = mail('lauraberthoud74@gmail.com', $_POST['sujet'], $message, 'From: contact@siteacher.fr' . '\r\n' . 'Reply-to :' .  $_POST['email']);
         if($retour)
             echo '<p>Votre message a bien été envoyé.</p>';
     }

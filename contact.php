@@ -108,7 +108,7 @@
     <h1>Formulaire de contact</h1>
     <form method="post">
       <label for="name">Nom & prénom</label>
-      <input type="text" id="name" name="firstname" placeholder="Votre nom et prénom">
+      <input type="text" id="name" name="name" placeholder="Votre nom et prénom" required>
   
       <label for="sujet">Sujet</label>
       <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message" required>
@@ -123,12 +123,14 @@
     <?php
     // si le formulaire a été soumis
     if (isset($_POST['message'])) {
-        $message = 'Ce message vous a été envoyé via la page contact du site lesarchersdumontblanc.ovh
+        $message = 'Ce message vous a été envoyé via la page contact du site 
+        lesarchersdumontblanc.ovh
         Nom : ' .  $_POST['name'] . '
         Email : ' . $_POST['email'] . '
-        Massage : ' . $_POST['message'];
-        $retour = mail('lauraberthoud74@gmail.com', $_POST['sujet'], $message, 'From: contact@siteacher.fr' . '\r\n' . 'Reply-to :' .  $_POST['email']);
-        if($retour)
+        Message : ' . $_POST['message'];
+
+        $retour = mail('lauraberthoud74@gmail.com', $_POST['sujet'], $message, 'From:contact@siteacher.fr' . '\r\n' . 'Reply-to :' .  $_POST['email']);
+        if ($retour)
             echo '<p>Votre message a bien été envoyé.</p>';
     }
     ?>

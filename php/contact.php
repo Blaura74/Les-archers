@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Contact</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="www\css\style.css" rel="stylesheet" type="text/css" />
     <!--Popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
@@ -31,8 +31,8 @@
               </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Accueil</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil</a>
                     </li>
                     <!-- dropdown menu-->
                     <li class="nav-item dropdown">
@@ -67,6 +67,12 @@
                     </li>
                 </ul>
             </div>
+            <!-- search form-->
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                <input id="pawBoar" type="image" src="img\pawprints.png">
+            </form>
+        </nav>
             <!-- search form-->
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
@@ -106,8 +112,8 @@
 </p>
     <h1>Formulaire de contact</h1>
     <form method="post">
-      <label for="fname">Nom & prénom</label>
-      <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+      <label for="name">Nom & prénom</label>
+      <input type="text" id="name" name="firstname" placeholder="Votre nom et prénom">
   
       <label for="sujet">Sujet</label>
       <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message" required>
@@ -115,16 +121,14 @@
       <label for="emailAddress">Email</label>
       <input id="emailAddress" type="email" name="email" placeholder="Votre email" required>
   
-      <label for="subject">Message</label>
-      <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px" required></textarea>
-    <div class="btn">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Votre message" style="height:200px" required></textarea>
       <input type="submit" value="Envoyer">
-    </div>
     </form>
     <?php
     // si le formulaire a été soumis
     if (isset($_POST['message'])) {
-        $retour = mail('lauraberthoud74@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: contact@archerpassy.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
+        $retour = mail('lauraberthoud74@gmail.com', $_POST['sujet'], $_POST['message'], 'From:' .  $_POST['email']);
         if($retour)
             echo '<p>Votre message a bien été envoyé.</p>';
     }

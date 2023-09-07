@@ -22,7 +22,7 @@
         <!--NavBar creation for all pages-->
         <!--Logo insertion-->
         <div class="Nav-Brand">
-            <img id="logo" src="C:\Users\laura\les-archers\img\logo.png" alt="logo du club" />
+            <img id="logo" src="\img\logo.png" alt="logo du club" />
         </div>
         <!--Link creation-->
         <nav class="navbar navbar-expand-lg">
@@ -73,12 +73,7 @@
                 <input id="pawBoar" type="image" src="img\pawprints.png">
             </form>
         </nav>
-            <!-- search form-->
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
-                <input id="pawBoar" type="image" src="\img\pawprints.png">
-            </form>
-        </nav>
+        
         <!--carousel creation-->
         <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">

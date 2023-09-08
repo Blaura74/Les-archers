@@ -54,6 +54,10 @@ main
     padding: 2em;
 }
 
+aside {
+    align-items: flex-end;
+}
+
 h1 {
     text-align: center;
 }

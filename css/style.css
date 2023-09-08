@@ -46,9 +46,10 @@ nav {
 
 .content,
 aside,
-article {
+article,
+.logop {
     margin: 2em;
-    padding: 1em;
+    padding: 2em;
 }
 
 h1 {
@@ -129,12 +130,7 @@ input[type=text], textarea, input[type=email] {
 
   /* logo page partnership */
 
- .logos .logop {
-    
-    margin: 2em;
-    padding: 1em;
 
- }
 
 /* footer */
 

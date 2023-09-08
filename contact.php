@@ -108,30 +108,30 @@
     <h1>Formulaire de contact</h1>
     <form method="post">
       <label for="name">Nom & prénom</label>
-      <input type="text" id="name" name="name" placeholder="Votre nom et prénom" required>
+      <input type="text"  name="name" placeholder="Votre nom et prénom" required>
   
       <label for="sujet">Sujet</label>
-      <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message" required>
+      <input type="text"  name="sujet" placeholder="L'objet de votre message" required>
   
       <label for="emailAddress">Email</label>
-      <input id="emailAddress" type="email" name="email" placeholder="Votre email" required>
+      <input  type="email" name="email" placeholder="Votre email" required>
   
       <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Votre message" style="height:200px" required></textarea>
+      <textarea  name="message" placeholder="Votre message" style="height:200px" required></textarea>
       <input type="submit" value="Envoyer">
     </form>
     <?php
     // si le formulaire a été soumis
-    if (isset($_POST['message'])) {
-        $message = 'Ce message vous a été envoyé via la page contact du site 
+    if (isset($_POST["message"])) {
+        $message = "Ce message vous a été envoyé via la page contact du site 
         lesarchersdumontblanc.ovh
-        Nom : ' .  $_POST['name'] . '
-        Email : ' . $_POST['email'] . '
-        Message : ' . $_POST['message'];
+        Nom : " .  $_POST["name"] . "
+        Email : " . $_POST["email"] . "
+        Message : " . $_POST["message"];
 
-        $retour = mail('lauraberthoud74@gmail.com', $_POST['sujet'], $message, 'From:contact@siteacher.fr' . '\r\n' . 'Reply-to :' .  $_POST['email']);
+        $retour = mail("archersdumontblanc@gmail.com", $_POST["sujet"], $message, "From:contact@siteacher.fr" . "\r\n" . "Reply-to :" .  $_POST["email"]);
         if ($retour)
-            echo '<p>Votre message a bien été envoyé.</p>';
+            echo "<p>Votre message a bien été envoyé.</p>";
     }
     ?>
   </div>

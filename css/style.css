@@ -47,7 +47,9 @@ nav {
 .content,
 aside,
 article,
-.logop {
+.logop,
+main
+{
     margin: 2em;
     padding: 2em;
 }

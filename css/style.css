@@ -127,6 +127,14 @@ input[type=text], textarea, input[type=email] {
     width: 100%;
   }
 
+  /* logo page partnership */
+
+ .logos .logop {
+    
+    margin: 2em;
+    padding: 1em;
+
+ }
 
 /* footer */
 
@@ -186,6 +194,7 @@ input[type=text], textarea, input[type=email] {
     text-align: center;
     font-size: 13px;
 }
+
 
 
 /* size logo with screen size*/

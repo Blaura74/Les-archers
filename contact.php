@@ -41,7 +41,8 @@
             </a>
                         <!-- dropdown item-->
                         <ul class="dropdown-menu" aria-labelledby="navbarClub">
-                            <li><a class="dropdown-item" href="presentation.html">Presentation</a></li>
+                        <li><a class="dropdown-item" href="presentation.html">Presentation du club</a></li>
+                            <li><a class="dropdown-item" href="bureau.html">Presentation du bureau</a></li>
                             <li><a class="dropdown-item" href="trainningtime.html">Horaires entrainements</a></li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -63,7 +64,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
+                        <a class="nav-link active" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -46,17 +46,7 @@
            </main>
    
   <!-- footer use on all pages -->
-  <div class="footer-basic">
-    <footer>
-        <div class="social"><a href="https://www.facebook.com/profile.php?id=100086312898343&locale=fr_FR"><i class="bi bi-facebook"></i></a></div>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.html">Accueil</a></li>
-            <li class="list-inline-item"><a href="plan.html">Plan du site</a></li>
-            <li class="list-inline-item"><a href="partnership.html">Nos partenaires</a></li>
-        </ul>
-        <p class="copyright">Les Archers du Mont Blanc © 2022</p>
-    </footer>
-</div>
+  <<?php include('footer.php'); ?>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -45,7 +45,7 @@
     </div>
 
     <div class="member">
-        <img class="gauche" src="img/chanchan.jpg" alt="Vice Trésorière">La vice trésorerière Chantale
+        <img class="gauche" src="img/chanchan.jpg" alt="Vice Trésorière">La vice trésorerière Chantal
     </div>
 
     <div class="member" style="text-align: right;">

@@ -29,26 +29,20 @@
      <div id="logos">
         <!--integration logo partnership-->
        <img class="logop" src="img\tramoy.png" alt="Tramoy logo" width="200">
-       <img class="logop" src="img\archerystudio.png" alt="Archery studio" width="200">
-       <img class="logop" src="img\FFTA1.jpg" alt="FFTA" width="200">
-       <img class="logop" src="img\region.jpg" alt="Région Auvergne-Rhône-alpes" width="200">
-       <img class="logop" src="img\Passy.png" alt="Commune de Passy" width="200">
+       <a href="https://archerystudio.wixsite.com/archerystudio/l-equipe" title="Archery studio">
+          <img class="logop" src="img\archerystudio.png" alt="Archery studio" width="200"> </a>
+        <a href="https://www.ffta.fr/" title="FFTA">  
+          <img class="logop" src="img\FFTA1.jpg" alt="FFTA" width="200"></a>
+       <a href="https://www.auvergnerhonealpes.fr/" title="Région Auvergne-Rhône-Alpes">
+          <img class="logop" src="img\region.jpg" alt="Région Auvergne-Rhône-alpes" width="200"></a>
+        <a href="https://www.ville-passy-mont-blanc.fr/" title="ville de Passy">
+          <img class="logop" src="img\Passy.png" alt="Commune de Passy" width="200"></a>
      </div>
       
     </main>
    
   <!-- footer use on all pages -->
-  <div class="footer-basic">
-    <footer>
-        <div class="social"><a href="https://www.facebook.com/profile.php?id=100086312898343&locale=fr_FR"><i class="bi bi-facebook"></i></a></div>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="index.html">Accueil</a></li>
-            <li class="list-inline-item"><a href="plan.html">Plan du site</a></li>
-            <li class="list-inline-item active"><a href="partnership.html">Nos partenaires</a></li>
-        </ul>
-        <p class="copyright">Les Archers du Mont Blanc © 2022</p>
-    </footer>
-</div>
+  <?php include('footer.php'); ?>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

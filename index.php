@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Les Archers du Mont-Blanc</title>
     <meta name="description" content="Le site internet du club des Archers du Mont-Blanc">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css\style.css">
     <!--Popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
@@ -24,9 +24,7 @@
 <section>
        <?php include('menu.php'); ?>
 </section>
-
-    <div class="wrapper">
-        <main class="content">
+<main>
             <article>
                 <h2>Bienvenue !</h2>
                 <p>Bienvenue sur le site des Archers du Mont Blanc. 
@@ -43,7 +41,7 @@
                 <img src="img\fetesport23.jpg" width="300">
             </div>
             </article>
-        </main>
+</main>
         <aside>
             <!--immplemetation fb-->
             <div class="fb-page" data-href="https://www.facebook.com/archersmontblanc/?show_switched_toast=0&amp;show_invite_to_follow=0&amp;show_switched_tooltip=0&amp;show_podcast_settings=0&amp;show_community_review_changes=0&amp;show_community_rollback=0&amp;show_follower_visibility_disclosure=0" 
@@ -63,19 +61,9 @@
                 <iframe id="widget_autocomplete_preview" width="400" height="350" frameborder="0" src="https://meteofrance.com/widget/prevision/742080##2196F3BF"> </iframe>
             </div>
         </aside>
-    </div>
+                
     <!-- footer use on all pages -->
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="https://www.facebook.com/profile.php?id=100086312898343&locale=fr_FR"><i class="bi bi-facebook"></i></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="index.html">Accueil</a></li>
-                <li class="list-inline-item"><a href="plan.html">Plan du site</a></li>
-                <li class="list-inline-item"><a href="partnership.html">Nos partenaires</a></li>
-            </ul>
-            <p class="copyright">Les Archers du Mont Blanc © 2022</p>
-        </footer>
-    </div>
+    <?php include('footer.php'); ?>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

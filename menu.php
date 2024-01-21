@@ -28,20 +28,20 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="subscribe.php">Inscritpion</a></li>
+                            <li><a class="dropdown-item" href="subscribe.php">Inscritpion au club</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="galery.php">Galerie</a>
                     </li>
-                    <!--dropdown menu-->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                              Compétition
-                            </a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarClub" role="button" data-toggle="dropdown" aria-expanded="false">
+              Evènements
+            </a>
                         <!-- dropdown item-->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="competsub.php">Inscription aux concours</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarClub">
+                            <li><a class="dropdown-item" href="">concours</a></li>
+                            <li><a class="dropdown-item" href="inscription.php">Inscription aux concours</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -49,11 +49,11 @@
                     </li>
                 </ul>
             </div>
-            <!-- search form-->
+            <!-- search form
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
                 <input id="pawBoar" type="image" src="img\pawprints.png">
-            </form>
+            </form>-->
         </nav>
         <!--carousel creation-->
         <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">

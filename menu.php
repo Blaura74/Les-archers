@@ -40,7 +40,7 @@
             </a>
                         <!-- dropdown item-->
                         <ul class="dropdown-menu" aria-labelledby="navbarClub">
-                            <li><a class="dropdown-item" href="">concours</a></li>
+                            <li><a class="dropdown-item" href="concours.php">Liste concours</a></li>
                             <li><a class="dropdown-item" href="inscription.php">Inscription aux concours</a></li>
                         </ul>
                     </li>

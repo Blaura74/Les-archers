@@ -25,7 +25,7 @@
    </section>
 
 <main>
-    
+    <p> Vous pouvez retouver la liste de tous les concours directement <a href="https://www.ffta.fr/competitions">ICI</a></p>
 </main>
      <!-- footer use on all pages -->
   <?php include('footer.php'); ?>

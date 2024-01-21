@@ -38,7 +38,7 @@ nav {
     margin-left: 2em;
 }
 
-.content {
+.wraper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

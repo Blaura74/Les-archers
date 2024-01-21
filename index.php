@@ -24,7 +24,8 @@
 <section>
        <?php include('menu.php'); ?>
 </section>
-<main>
+<div class="wrapper">
+<main class="content">
             <article>
                 <h2>Bienvenue !</h2>
                 <p>Bienvenue sur le site des Archers du Mont Blanc. 
@@ -61,7 +62,7 @@
                 <iframe id="widget_autocomplete_preview" width="400" height="350" frameborder="0" src="https://meteofrance.com/widget/prevision/742080##2196F3BF"> </iframe>
             </div>
         </aside>
-                
+                </div>        
     <!-- footer use on all pages -->
     <?php include('footer.php'); ?>
 

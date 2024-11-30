@@ -10,160 +10,243 @@ body {
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    
+    justify-content: center;
+    align-items: center;
+
+
     >footer {
         position: sticky;
         top: 100vh;
     }
 }
-/* ajustment paw boar search */
 
-#pawBoar {
-    height: 2em;
-    width: 2em;
-}
-
-section {
+h1,
+h2,
+h3 {
+    border: solid;
+    border-radius: 10px;
     background-color: #FACF61;
-}
-
-.Nav-Brand {
+    border-color: #FACF61;
     text-align: center;
+    padding: 5px;
 }
 
-nav {
-    margin-right: 2em;
-    margin-left: 2em;
+h3 {
+    font-size: smaller !important;
 }
 
-.wraper {
+/* ajustement navbar toutes les pages */
+.header {
+    display: inline-flex;
+}
+
+.Brand {
+    background-color: #FACF61;
+    flex-direction: column;
+    padding: 50px;
+    max-width: min-content;
+    align-content: center;
+}
+
+
+/* mise en place main*/
+
+
+.content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-aside,
-article,
-.logop,
-main
-{
-    margin: 2em;
-    padding: 2em;
+    padding: 5em;
+    margin: 1em;
 }
 
 
-h1 {
-    text-align: center;
+.bienvenue {
+    border: solid;
+    border-color: #FACF61;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 article {
-    min-height: auto;
-    border: 1px solid #f58925;
-    border-radius: 15px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #FACF61;
+    padding: 5px;
+    margin: 1.2em;
+
 }
 
-.fbart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.actualites {
+    flex-grow: 1;
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+
 }
 
-h2 {
-    text-align: center;
-}
 
-#club {
+/*aside ppage accueil */
+aside {
     display: block;
+
+}
+
+
+#partnership {
+    display: block;
+    height: 300px;
+    width: auto;
+    max-width: 350px;
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #FACF61;
+
+
+}
+
+
+
+#partnership img {
+    display: block;
+    max-width: 70%;
+    max-height: 70%;
     margin: auto;
 }
 
-
-/* contact form*/
-input[type=text], textarea, input[type=email] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    margin-right: 0px;
-    margin-left: 0px;
-    resize: vertical;
-  }
-  
-  label {
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 100%;
-    
-  }
-  
-  
-  input[type=submit] {
-    background-color: #f58925;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #FACF61;
-  }
-  
-  .container {
-    /* add box-sizing */
-    box-sizing : border-box;
-    border-radius: 5px;
-    width: 100%;
-    /* redéfinition 400 + 2*20 */
-    max-width: 440px;
-    margin:0 auto;
-  }
-  
-  h1  {
-    color: #ffc800;
-    width: 100%;
-  }
-
-  /* img bureau */
-
-.member>.gauche,
-.member>.droite {
-    width: 200px;
-  }
-.member {
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-
-}
-.members img {
-    width: 500px;
-    border-radius: 30px 0px 30px 0px;
-    margin-top: 8%;
-    
-    
+/* mise en place page presentation */
+.image {
+    display: flex;
+    animation-duration: 25s;
+    animation-name: artisana;
+    animation-iteration-count: infinite;
 }
 
-.droite {
-    border-radius: 0px 30px 0px 30px;
-    margin-left: 8%;
-    
+/* animation du carousel page presentation*/
+@keyframes artisana {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-50%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    75% {
+        transform: translateX(-150%);
+    }
+
+    80% {
+        transform: translateX(-200%);
+    }
+
+    95% {
+        transform: translateX(-250%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
-.gauche {
-    border-radius: 30px 0px 30px 0px;
-    margin-right: 8%;
-    
+#carousel {
+    margin: auto;
+    width: 50%;
+    overflow: hidden;
 }
 
-/* footer */
+img.club {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+.centrer {
+    justify-content: center;
+}
+
+/* page bureau */
+.membres {
+    margin: 2em;
+    justify-content: center;
+    text-align: center;
+}
+
+img.member {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+img.equipe {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.bureau {
+    display: flex;
+    animation-duration: 25s;
+    animation-name: bureau;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bureau {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-50%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    75% {
+        transform: translateX(-150%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*page entrainements */
+article.entrainements {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img.training {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.milieu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    border: hidden;
+}
+
+/* footer toutes les pages */
 
 .footer-basic {
     padding: 40px 0;
@@ -222,41 +305,193 @@ input[type=text], textarea, input[type=email] {
     font-size: 13px;
 }
 
+/*size carousel en bloc*/
+@media screen and (max-width: 1341px) {
+    .header {
+        display: block;
+        margin: auto;
+        padding: auto;
+    }
+
+    .Brand {
+        display: flex;
+        flex-direction: row;
+        background-color: #FACF61;
+        max-width: fit-content;
+        margin: auto;
+        padding: 20px;
+        justify-content: space-between;
+        text-align: left;
+
+    }
+
+    .content {
+        display: block;
+        padding: auto;
+        margin: auto;
+        justify-content: space-between;
+        justify-items: center;
+    }
+
+    aside {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
 
 
 /* size logo with screen size*/
 
-@media only screen and (max-width:380px) {
-    #logo {
-        max-width: 35%;
-        max-height: 35%;
+@media only screen and (min-width:200px) and (max-width:425px) {
+    body {
+        max-width: fit-content;
     }
+
+    #logo {
+        max-width: 40%;
+    }
+
+    .Brand {
+        max-width: none;
+    }
+
+    .actualites {
+        display: none;
+    }
+
+    .content {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    aside {
+        justify-content: center;
+    }
+
+    img.club {
+        display: none;
+    }
+
+    img.member {
+
+        width: 100px;
+
+    }
+
+    .milieu {
+        padding: 30px;
+        align-items: center;
+    }
+
+    @keyframes bureau {
+        0% {
+            transform: translateX(0);
+        }
+
+        25% {
+            transform: translateX(-150%);
+        }
+
+        50% {
+            transform: translateX(-400%);
+        }
+
+        75% {
+            transform: translateX(-500%);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    .entrainements {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    img.training {
+        width: 100px;
+    }
+
 }
 
-@media only screen and (min-width:381px) {
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
     #logo {
-        max-width: 65%;
-        max-height: 65%;
+        max-width: 50%;
+
     }
+
+    .actualites {
+        display: block;
+        text-align: center;
+        overflow: scroll;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+
+    .Brand {
+        padding: 50px;
+    }
+
+    img.club {
+        width: 50%;
+        height: 50%;
+    }
+
 }
+
 
 @media only screen and (min-width:769px) {
     #logo {
         max-width: 80%;
         max-height: 80%;
     }
+
+    .actualites {
+        display: block;
+        text-align: center;
+        overflow: scroll;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
 }
 
 @media only screen and (min-width:992px) {
     #logo {
-        max-width: 85%;
-        max-height: 85%;
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .actualites {
+        display: block;
+        text-align: center;
+        overflow: scroll;
+        overflow-y: auto;
+        overflow-x: auto;
     }
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1341px) {
     #logo {
         max-width: 100%;
         max-height: 100%;
     }
+
+    .actualites {
+        display: block;
+        text-align: center;
+        overflow: scroll;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+
 }

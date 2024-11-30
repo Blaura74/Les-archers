@@ -29,13 +29,13 @@
      <div id="logos">
         <!--integration logo partnership-->
        <img class="logop" src="img\tramoy.png" alt="Tramoy logo" width="200">
-       <a href="https://archerystudio.wixsite.com/archerystudio/l-equipe" title="Archery studio">
+       <a href="https://archerystudio.wixsite.com/archerystudio/l-equipe" title="Archery studio" target="_blank">
           <img class="logop" src="img\archerystudio.png" alt="Archery studio" width="200"> </a>
-        <a href="https://www.ffta.fr/" title="FFTA">  
+        <a href="https://www.ffta.fr/" title="FFTA" target="_blank">  
           <img class="logop" src="img\FFTA1.jpg" alt="FFTA" width="200"></a>
-       <a href="https://www.auvergnerhonealpes.fr/" title="Région Auvergne-Rhône-Alpes">
+       <a href="https://www.auvergnerhonealpes.fr/" title="Région Auvergne-Rhône-Alpes" target="_blank">
           <img class="logop" src="img\region.jpg" alt="Région Auvergne-Rhône-alpes" width="200"></a>
-        <a href="https://www.ville-passy-mont-blanc.fr/" title="ville de Passy">
+        <a href="https://www.ville-passy-mont-blanc.fr/" title="ville de Passy" target="_blank">
           <img class="logop" src="img\Passy.png" alt="Commune de Passy" width="200"></a>
      </div>
       

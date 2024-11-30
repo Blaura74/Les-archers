@@ -23,13 +23,44 @@
     <?php include('menu.php'); ?>
 
    </section>
+<!-- Main Content -->
+    <main>
+        <div class="content">
+        <div class="container">
+            <p>Pour vous inscrire à un concours, merci de remplir le formulaire, ou bien d'en faire part à votre entraîneur</p>
+    <h1>Formulaire d'inscription</h1>
+    <form method="post">
+      <label for="name">Nom & prénom</label>
+      <input type="text"  name="name" placeholder="Votre nom et prénom" required>
+  
+      <label for="sujet">Compétition</label>
+      <input type="text"  name="sujet" placeholder="L'objet de votre message" required>
+  
+      <label for="emailAddress">Email</label>
+      <input  type="email" name="email" placeholder="Votre email" required>
+  
+      <label for="message">Message</label>
+      <textarea  name="message" placeholder="Précisez la compétition et la date" style="height:200px" required></textarea>
+      <input type="submit" value="Envoyer">
+    </form>
+    <?php
+    // si le formulaire a été soumis
+    if (isset($_POST["message"])) {
+        $message = "Ce message vous a été envoyé via la page contact du site 
+        lesarchersdumontblanc.ovh
+        Nom : " .  $_POST["name"] . "
+        Email : " . $_POST["email"] . "
+        Message : " . $_POST["message"];
 
-<main>
-    
+        $retour = mail("clement674@hotmail.fr", $_POST["sujet"], $message, "From:inscription.concours@siteacher.fr" . "\r\n" . "Reply-to :" .  $_POST["email"]);
+        if ($retour)
+            echo "<p>Votre message a bien été envoyé.</p>";
+    }
+    ?>
+  </div>
 </main>
-     <!-- footer use on all pages -->
+  <!-- footer use on all pages -->
   <?php include('footer.php'); ?>
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>

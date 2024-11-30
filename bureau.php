@@ -24,41 +24,41 @@
 
    </section>
    <!-- Main Content -->
-   <main id="bureau">
-     
-     <div class="member">
-        <img class="gauche" src="img/arnaud.jpg" alt="Président"> Le Président Arnaud.
-     </div>
+   <main>
+        <div id="carousel">
+                <div class="bureau">
+                    <div class="membres">
+                        <img class="member" src="img\Bureau\arnaud.jpg" alt="bureau">
+                        Président : Arnaud 
+                    </div>
+                    <div class="membres"> 
+                        <img class="member" src="img\Bureau\yoyo.jpg" alt="bureau">
+                        Vice président : Lionel
+                    </div>
+                    <div class="membres"> 
+                        <img class="member" src="img\Bureau\clem.jpg" alt="bureau">
+                        Secrétaire : Clément
+                    </div>
+                    <div class="membres"> 
+                        <img class="member" src="img\Bureau\laura.jpg" alt="bureau">
+                        Sous secrétaire laura
+                    </div>
 
-    <div class="member" style="text-align: right;">
-        Le vice président Lionel
-        <img class="droite"  src="img/yoyo.jpg" alt="Vice Président">      
-    </div>
+                    <div class="membres">
+                        <img class="member" src="img\Bureau\chanchan.jpg" alt="bureau">
+                        Trésorière : Chantal
+                    </div>
+                    <div class="membres">
+                        <img class="member" src="img\Bureau\angel.jpg" alt="bureau">
+                        Trésorière : Angélique
+                    </div>
+                </div>
+                <div class="membres">
+                <img class="equipe" src="img\Bureau\equipe.jpg" alt="bureau">
+            </div>
+            </div>
 
-    <div class="member">
-        <img class="gauche" src="img/clem.jpg" alt="Secretaire">Le secrétaire Clément
-    </div>
-
-    <div class="member" style="text-align: right;">
-        La trésorière Angélique
-        <img class="droite" src="img/angel.jpg" alt="Trésorière">
-    </div>
-
-    <div class="member">
-        <img class="gauche" src="img/chanchan.jpg" alt="Vice Trésorière">La vice trésorerière Chantal
-    </div>
-
-    <div class="member" style="text-align: right;">
-        La vice secrétaire Laura
-        <img class="droite" src="img/laura.jpg" alt="Vice secrétaire">
-    </div>
-
-<div id="group">
-    <div class="members" style="text-align: center;">
-    <img src="img/equipe.jpg" alt="Equipe du bureau"><p>L'équipe au complet</p>
-</div>
-</div>
-</main>
+    </main>
   <!-- footer use on all pages -->
  <?php include('footer.php'); ?>
 

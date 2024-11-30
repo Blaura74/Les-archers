@@ -24,25 +24,95 @@
     <!-- Main Content -->
     <main>
 
-        <div class="content"> 
-            <h1>Les Archers du Mont Blanc</h1> 
-           <p> Le 17 mars 2022, un groupe de 12 personnes s’est lancé le défi de créer un nouveau club de tir à l’arc au cœur de la vallée de l’Arve. Situé au pays du Mont Blanc, le nom des Archers du Mont Blanc est donc venu naturellement. Désormais déclarée en préfecture de la Haute Savoie, c’est grâce à l’esprit collectif et la passion du tir à l’arc que l’histoire de notre club a commencé. 
-        
-            Très vite, nous devions travailler avec une municipalité pour obtenir un lieu de pratique pour notre activité. Début avril 2022, la mairie de Passy a su répondre présente pour nous écouter et tenter de trouver une solution. Un long travail de repérage s’est mis en place et c’est en septembre 2022 qu’une solution a été trouvée au stand de tir de Chedde, celle-ci nous a permis de tirer à 18 mètres pour la saison hiver.
-        </p>
-            
-            
-    <br>
-    <br>
-            <img id="club" src="img\pasdetir.JPG" alt="Pas de tir" height="750">
-        <br><br>
-            <p>Le club a pu avoir son affiliation à la Fédération Française de tir à l’arc (FFTA) au mois de septembre 2022, c’est à partir de ce moment que nos archers ont représenté le club à travers les compétitions du département, de la région et même au-delà. 
-            Première saison hiver et déjà un palmarès se dessine avec des médailles aux championnats départementaux mais également des participations aux championnats régionaux. Des “premières” qui en appellent d’autres !
-        </p>
-           <p><b>Désormais nous sommes prêts à vous accueillir et vous faire découvrir notre passion, rendez vous en septembre 2023 ! L’histoire du club ne demande qu'à être continuée.
-            Êtes vous tenté de continuer l’histoire avec nous ?</b></p> 
-             </div>
-      </main>
+        <article>
+            <h1>Les Archers du Mont Blanc</h1>
+            <p> Notre club, c'est avant tout l'histoire d'une rencontre. 12 personnes se rencontrant dans un club
+                d'archers, certains se connaissant depuis des années et des nouveaux venus qui commençais ce sport.
+                Suite à cette rencontre, une amitié s'est liée entre ces personnes. C'est ainsi que le 17 mars 2022, le
+                groupe s’est lancé le défi de créer un nouveau club de tir à l’arc
+                au cœur de la vallée de l’Arve. C'est la naissance du <b>"club des archers du Mont Blanc".</b>
+
+                Situé au pays du Mont Blanc, ce nom s'est inscrit naturellement. Désormais déclaré en préfecture de la
+                Haute Savoie, c’est grâce à l’esprit
+                collectif et la passion du tir à l’arc que l’histoire de notre club a débuté.
+            </p>
+            <p>
+                Les disponibilités des gymnases et/ou des salles sont difficiles à obtenir surtout pour un club
+                nouvellement crée.
+                Très vite, nous devions donc travailler avec une municipalité pour obtenir un lieu de pratique pour
+                notre
+                activité. Début avril 2022, la mairie de Passy a su répondre présente pour nous écouter et tenter de
+                trouver une solution. Un long travail de repérage s’est alors mis en place. Ce sera en septembre 2022
+                qu’une
+                solution a pu être trouvée avec un acces pour des crénaux au stand de tir de Chedde. Cet emplacement
+                nous a permis de tirer à 18 mètres pour la saison hiver. Cependant, n'étant pas tout à fait adapté au
+                tir à l'arc, nos cher membres et créateur du club
+                ont travaillé sur leur temps libre pour adapter au mieux l'endroit car oui, ce lieux était en
+                extérieur... en hiver. Il fallaut donc braver températures négatives et
+                temps parfois capricieus pour accéder au sésame de pouvoir tirer des flêches.
+                Nos membres ce sont alors mis à travailler pour créer un pas de tir, des meubles ainsi qu'une protection
+                pour les cibles en cas d'intempéries diverses.
+
+            </p>
+            <div id="carousel">
+                <div class="image">
+                    <img class="club" src="img\artisana\pasdetir.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\pasdetir1.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\pasdetir4.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\pasdetirext1.JPG" alt="Stand de tir extérieur">
+
+                    <img class="club" src="img\artisana\cadre1.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\cadre2.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\cadre3.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\cadre.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\meuble1.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\meuble2.JPG" alt="Stand de tir extérieur">
+                </div>
+            </div>
+            <p>
+                Les entrainements dans le froids par des températures négatives n'étant pas propices pour de nouveaux
+                licenciés, le club à fait le choix la première année
+                de ne pas prendre de nouveaux licenciés. Pour autant, les membres s'entrainaient, content d'avoir enfin
+                un lieu pour exercer leur passion commune.
+            </p>
+            <p>Le club a pu avoir son affiliation à la Fédération Française de tir à l’arc (FFTA) au mois de septembre
+                2022, c’est à partir de ce moment que nos archers ont représenté le club à travers les compétitions du
+                département, de la région et même au-delà.
+                Première saison hiver et déjà un palmarès s'est dessiné avec des médailles aux championnats
+                départementaux
+                mais également des participations aux championnats régionaux. Des “premières” qui en appellèrent
+                d’autres
+                !
+            </p>
+            <p>
+                Le but du club étant de pouvoir quand même partager ce sport avec de nouvelles personnes et créer de
+                nouveaux liens, les membres du bureau continuèrent sans relâche
+                la recherche d'un lieu de tir, pouvant accueillir de nouveau licenciés, petits comme grand dans une
+                infrastructures couvertes.
+                c'est ainsi qu'avec l'aide de la mairie, qui a pu constater à plusieures reprise l'implication des
+                membres ainsi que l'envie du club de grandir, qu'un créneau dans le boulodrome de passy sur la saison d'hiver à pu être libéré, et le crénaux en
+                extérieur au stand de tir pour l'été.
+                Bien sûr, une adaptation pour le tir à l'arc à du être fait par les membres pour pouvoir pratiquer leur sport au mieux et pouvoir accueillir de nouveau licenciés.
+            </p>
+            <div id="carousel">
+                <div class="image">
+                    <img class="club" src="img\artisana\boulodrome.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\meublesalle.JPG" alt="Stand de tir extérieur">
+                    <img class="club" src="img\artisana\rgmtsalle.JPG" alt="Stand de tir extérieur">
+                </div>
+            </div>
+
+            <p>A ce jour, le club continue de grandir et de montrer son implication au sein des activités et évènements que la ville peut organiser.
+                Vous pourrez retrouver nos archers à la fête du sport chaque année pour un essai de tir, alors <b>laissez vous tentez</b> venez essayer.
+                Une bonne humeur sera toujours présente et ce sera avec plaisir que nous vous accueillerons, car le club des archers du Mont Blanc ce sont des
+                passionné d'un sport mais c'est aussi une seconde famille. Des activités seront proposées par le club aux fêtes importantes (pâques, halloween, noël... ), 
+                des virées dans un autre club, avec qui les membres du club ont tissé une amitié, notemment lors de leur concours en hiver et en été.
+                Et il y aura toujours quelqu'un pour penser à votre anniversaire ! 
+            </p>
+            <center><p><b>Le club n'attend plus que vous </b></p></center>
+        </article>
+
+    </main>
         <!-- footer use on all pages -->
         <?php include('footer.php'); ?>
     

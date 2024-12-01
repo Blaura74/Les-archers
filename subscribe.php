@@ -34,7 +34,118 @@
 <section>
        <?php include('menu.php'); ?>
 </section>
-
+<main>
+        <div class="content">
+            <div class="principale">
+                <article class="bienvenue">
+                    <h1>Inscription <img class="paw" src="img\pawprints.png">
+                        <br>Nous vous souhaitons la bienvenue aux "Archers du Mont Blanc"
+                    </h1>
+                    <p> Vous souhaitez découvrir le tir à l'arc ou perfectionner votre technique ? Situé à Passy, en
+                        Haute-Savoie, notre club vous offre l'opportunité de pratiquer ce sport passionnant dans un
+                        cadre exceptionnel, avec une vue imprenable sur le Mont-Blanc. Que vous soyez débutant ou
+                        pratiquant confirmé, nous vous proposons des séances adaptées à tous les niveaux et un esprit
+                        d’équipe chaleureux.
+                        <br>
+                        Inscrivez-vous dès aujourd'hui pour faire partie de notre grande famille d'archers et vivez une
+                        expérience unique alliant sport, convivialité et nature !
+                        Si vous êtes ici c'est que vous souhaitez rejoindre notre famille d'archers alors n'hésitez
+                        plus.
+                        <br>
+                        Les membres du club sont investis tout au long de
+                        l'année sur différent évènements de la commune et privés pour vous faire découvrir à vous ou vos
+                        enfants
+                        ce sport.
+                        En effet, vous pourrez notamment nous retrouver chaque année à la fête du sport au niveau du lac
+                        de passy.
+                    </p>
+                    <!-- defilement image css-->
+                    <div id="carousel">
+                        <div class="bureau">
+                            <img class="fs" src="img\fetesport\1fs23.jpg" alt="Fête su sport 2023">
+                            <img class="fs" src="img\fetesport\fs23.jpg" alt="Fête su sport 2023">
+                            <img class="fs" src="img\fetesport\2fs23.jpg" alt="Fête su sport 2023">
+                            <img class="fs" src="img\fetesport\1fs24.JPG" alt="Fête du sport 2024">
+    
+                            <img class="fs" src="img\fetesport\2fs24.JPG" alt="Fête du sport 2024">
+                            <img class="fs" src="img\fetesport\3fs24.JPG" alt="Fête du sport 2024">
+                            <img class="fs" src="img\fetesport\4fs24.JPG" alt="Fête du sport 2024">
+                        </div>
+                    </div>
+                    </p>
+    
+                    <br>
+                    <br>
+                    <p>Nous organisons aussi des séances découvertes si vous souhaitez essayer mais que vous n'êtes pas
+                        disponible à la fête du sport.</p>
+                    <div id="carousel">
+    
+                        <h3>2023</h3>
+    
+                        <div class="bureau">
+                            <img class="fs" src="img\decouverte\2023\1.JPG" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\2.JPG" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\3.JPG" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\4.JPG" alt="Journée découverte  2023">
+    
+                            <img class="fs" src="img\decouverte\2023\5.JPG" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\6.JPG" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\7.jpeg" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\8.JPG" alt="Journée découverte 2023">
+                            <img class="fs" src="img\decouverte\2023\9.JPG" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\10.JPG" alt="Journée découverte  2023">
+                        </div>
+                    </div>
+    
+                    <div id="carousel">
+                        <h3>2024</h3>
+                        <div class="bureau">
+                            <img class="fs" src="img\decouverte\2024\1.JPG" alt="Journée découverte  2024">
+                            <img class="fs" src="img\decouverte\2024\2.JPG" alt="Journée découverte  2024">
+                            <img class="fs" src="img\decouverte\2024\3.JPG" alt="Journée découverte  2024">
+                            <img class="fs" src="img\decouverte\2024\4.JPG" alt="Journée découverte  2024">
+    
+                            <img class="fs" src="img\decouverte\2024\5.JPG" alt="Journée découverte  2024">
+                            <img class="fs" src="img\decouverte\2024\6.JPG" alt="Journée découverte  2024">
+                            <img class="fs" src="img\decouverte\2024\7.JPG" alt="Journée découverte  2024">
+                            <img class="fs" src="img\decouverte\2024\8.JPG" alt="Journée découverte  2024">
+                            <img class="fs" src="img\decouverte\2024\9.JPG" alt="Journée découverte  2024">
+                            <img class="fs" src="img\decouverte\2024\10.JPG" alt="Journée découverte  2024">
+                        </div>
+                    </div>
+                    <h2>documents</h2>
+                    <p>
+                        Si vous avez décidez de sautez le pas, vous trouverez donc sur cette page les différents
+                        documents
+                        que nous vous demanderons d'utiliser pour effectuer votre inscription ou celle d'un tiers dont
+                        vous êtes responsable.
+                        A savoir que toute adhésion à notre club implique l'acceptation du règlement intérieur.
+                    </p>
+                    <p>Vous pourrez notamment retrouver ici :
+                    <ul>
+                        <li>
+                            Le questionnaire de santé mineur/adulte. Le certificat médical n'est plus oblilgatoire.
+                            Toutefois, si vous avez répondu "OUI" ne serais-ce qu'à une
+                            question, vous devez impérativement prendre rendez-vous chez votre médecin et nous
+                            fournir un certificat médical d'aptitude à la pratique du tir à l'arc (pour la pratique en
+                            compétition).
+                        </li><br>
+                        <li>
+                            La fiche de droit à l'image. Nous utilisons les photos ou vidéos lors des entrainement et/ou
+                            évènements principalement sur les réseaux sociaux et le site internet.
+                        </li><br>
+                        <li>
+                            La fiche d'inscription
+                        </li>
+                    </ul>
+                    </p>
+            </div>
+            </article>
+            <?php include('aside.php'); ?>
+    
+        </div>
+    
+    </main>
 
 
     <!-- footer use on all pages -->

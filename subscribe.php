@@ -60,7 +60,7 @@
                         de passy.
                     </p>
                     <!-- defilement image css-->
-                    <div id="carousel">
+                    <div class="slid">
                         <div class="bureau">
                             <img class="fs" src="img\fetesport\1fs23.jpg" alt="Fête su sport 2023">
                             <img class="fs" src="img\fetesport\fs23.jpg" alt="Fête su sport 2023">
@@ -78,7 +78,7 @@
                     <br>
                     <p>Nous organisons aussi des séances découvertes si vous souhaitez essayer mais que vous n'êtes pas
                         disponible à la fête du sport.</p>
-                    <div id="carousel">
+                    <div class="slid">
     
                         <h3>2023</h3>
     
@@ -86,18 +86,20 @@
                             <img class="fs" src="img\decouverte\2023\1.JPG" alt="Journée découverte  2023">
                             <img class="fs" src="img\decouverte\2023\2.JPG" alt="Journée découverte  2023">
                             <img class="fs" src="img\decouverte\2023\3.JPG" alt="Journée découverte  2023">
-                            <img class="fs" src="img\decouverte\2023\4.JPG" alt="Journée découverte  2023">
-    
-                            <img class="fs" src="img\decouverte\2023\5.JPG" alt="Journée découverte  2023">
-                            <img class="fs" src="img\decouverte\2023\6.JPG" alt="Journée découverte  2023">
+
+                            <img class="fs" src="img\decouverte\2023\4.jpg" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\5.jpg" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\6.jpg" alt="Journée découverte  2023">
+
                             <img class="fs" src="img\decouverte\2023\7.jpeg" alt="Journée découverte  2023">
-                            <img class="fs" src="img\decouverte\2023\8.JPG" alt="Journée découverte 2023">
-                            <img class="fs" src="img\decouverte\2023\9.JPG" alt="Journée découverte  2023">
-                            <img class="fs" src="img\decouverte\2023\10.JPG" alt="Journée découverte  2023">
+
+                            <img class="fs" src="img\decouverte\2023\8.jpg" alt="Journée découverte 2023">
+                            <img class="fs" src="img\decouverte\2023\9.jpg" alt="Journée découverte  2023">
+                            <img class="fs" src="img\decouverte\2023\10.jpg" alt="Journée découverte  2023">
                         </div>
                     </div>
     
-                    <div id="carousel">
+                    <div class="slid">
                         <h3>2024</h3>
                         <div class="bureau">
                             <img class="fs" src="img\decouverte\2024\1.JPG" alt="Journée découverte  2024">

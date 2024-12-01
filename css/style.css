@@ -161,7 +161,8 @@ aside {
     }
 }
 
-#carousel {
+#carousel,
+.slid {
     margin: auto;
     width: 50%;
     overflow: hidden;
@@ -275,6 +276,9 @@ img.fs {
 
 }
 
+.doc {
+    list-style-type: none;
+}
 
 @keyframes decouverte {
     0% {
@@ -421,7 +425,9 @@ img.fs {
         max-width: none;
     }
 
-    .actualites {
+    .actualites,
+    img.club,
+    .slid {
         display: none;
     }
 
@@ -433,10 +439,6 @@ img.fs {
 
     aside {
         justify-content: center;
-    }
-
-    img.club {
-        display: none;
     }
 
     img.member {

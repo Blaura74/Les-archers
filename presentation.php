@@ -54,7 +54,7 @@
                 pour les cibles en cas d'intempéries diverses.
 
             </p>
-            <div id="carousel">
+            <div class="slide">
                 <div class="image">
                     <img class="club" src="img\artisana\pasdetir.JPG" alt="Stand de tir extérieur">
                     <img class="club" src="img\artisana\pasdetir1.JPG" alt="Stand de tir extérieur">
@@ -94,7 +94,7 @@
                 extérieur au stand de tir pour l'été.
                 Bien sûr, une adaptation pour le tir à l'arc à du être fait par les membres pour pouvoir pratiquer leur sport au mieux et pouvoir accueillir de nouveau licenciés.
             </p>
-            <div id="carousel">
+            <div class="slid">
                 <div class="image">
                     <img class="club" src="img\artisana\boulodrome.JPG" alt="Stand de tir extérieur">
                     <img class="club" src="img\artisana\meublesalle.JPG" alt="Stand de tir extérieur">
